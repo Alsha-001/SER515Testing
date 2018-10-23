@@ -15,3 +15,8 @@ dependencies {
     compile "junit:junit:4.12"
 
 }
+
+jacoco{
+    toolVersion = "0.8.1"
+    reportsDir = file("$buildDir/myHTMLreport")
+}
